@@ -1,0 +1,145 @@
+C:/Users/hadoop001/Desktop/CPU_WH/RegFile.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/RegFile.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/MD.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/MD.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module MD
+
+Top level modules:
+	MD
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/Hazard.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/Hazard.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Hazard
+
+Top level modules:
+	Hazard
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/RegD.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/RegD.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module RegD
+
+Top level modules:
+	RegD
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/DMExt.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/DMExt.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module DMExt
+
+Top level modules:
+	DMExt
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/StartCtrl.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/StartCtrl.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module StartCtrl
+
+Top level modules:
+	StartCtrl
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/RegE.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/RegE.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module RegE
+
+Top level modules:
+	RegE
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/RegW.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/RegW.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module RegW
+
+Top level modules:
+	RegW
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/Ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/Ctrl.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Ctrl
+
+Top level modules:
+	Ctrl
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/IM.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/IM.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module IM_2k
+
+Top level modules:
+	IM_2k
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/Comp.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/Comp.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Comp
+
+Top level modules:
+	Comp
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/MIPS.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/MIPS.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/Ext.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/Ext.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Ext
+
+Top level modules:
+	Ext
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/DM.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/DM.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module DM_4k
+
+Top level modules:
+	DM_4k
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/NPC.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/NPC.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/ALU.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/ALU.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/MUX.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/MUX.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module MUX2
+-- Compiling module MUX3
+-- Compiling module MUX4
+
+Top level modules:
+	MUX2
+	MUX3
+	MUX4
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/RegM.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/RegM.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module RegM
+
+Top level modules:
+	RegM
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/PC.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/PC.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/hadoop001/Desktop/CPU_WH/BECtrl.v {1 {vlog -work work -vopt -stats=none C:/Users/hadoop001/Desktop/CPU_WH/BECtrl.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module BECtrl
+
+Top level modules:
+	BECtrl
+
+} {} {}}

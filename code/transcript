@@ -1,0 +1,241 @@
+# Reading D:/modelsim_win64/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 2019.2 Apr 17 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile C:/Users/hadoop001/Desktop/CPU_WH/CPU_WH.mpf
+# Loading project CPU_WH
+vdel -all -lib work
+# Compile of ALU.v was successful.
+# Compile of BECtrl.v was successful.
+# Compile of Comp.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of DM.v was successful.
+# Compile of DMExt.v was successful.
+# Compile of Ext.v was successful.
+# Compile of Hazard.v was successful.
+# Compile of IM.v was successful.
+# Compile of MD.v was successful.
+# Compile of MIPS.v was successful.
+# Compile of MIPS_TB.v was successful.
+# Compile of MUX.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RegD.v was successful.
+# Compile of RegE.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of RegM.v was successful.
+# Compile of RegW.v was successful.
+# Compile of StartCtrl.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.MIPS_TB
+# vsim -voptargs="+acc" work.MIPS_TB 
+# Start time: 10:57:49 on Sep 02,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.MIPS_TB(fast)
+# Loading work.Hazard(fast)
+# Loading work.PC(fast)
+# Loading work.IM_2k(fast)
+# Loading work.RegD(fast)
+# Loading work.Ctrl(fast)
+# Loading work.RegFile(fast)
+# Loading work.MUX4(fast)
+# Loading work.MUX3(fast)
+# Loading work.Comp(fast)
+# Loading work.Ext(fast)
+# Loading work.NPC(fast)
+# Loading work.StartCtrl(fast)
+# Loading work.RegE(fast)
+# Loading work.MUX2(fast)
+# Loading work.ALU(fast)
+# Loading work.MD(fast)
+# Loading work.MUX2(fast__1)
+# Loading work.RegM(fast)
+# Loading work.BECtrl(fast)
+# Loading work.DM_4k(fast)
+# Loading work.RegW(fast)
+# Loading work.DMExt(fast)
+add wave -position insertpoint  \
+sim:/MIPS_TB/PC/clk \
+sim:/MIPS_TB/PC/IsJBrD \
+sim:/MIPS_TB/PC/NPCD \
+sim:/MIPS_TB/PC/PCF \
+sim:/MIPS_TB/PC/PCPlus4F \
+sim:/MIPS_TB/PC/rst
+add wave -position insertpoint  \
+sim:/MIPS_TB/RegD/InstrF
+run -all
+# Compile of ALU.v was successful.
+# Compile of BECtrl.v was successful.
+# Compile of Comp.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of DM.v was successful.
+# Compile of DMExt.v was successful.
+# Compile of Ext.v was successful.
+# Compile of Hazard.v was successful.
+# Compile of IM.v was successful.
+# Compile of MD.v was successful.
+# Compile of MIPS.v was successful.
+# Compile of MIPS_TB.v was successful.
+# Compile of MUX.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RegD.v was successful.
+# Compile of RegE.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of RegM.v was successful.
+# Compile of RegW.v was successful.
+# Compile of StartCtrl.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.MIPS_TB
+# End time: 11:00:18 on Sep 02,2020, Elapsed time: 0:02:29
+# Errors: 2, Warnings: 0
+# vsim -voptargs="+acc" work.MIPS_TB 
+# Start time: 11:00:18 on Sep 02,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.MIPS_TB(fast)
+# Loading work.MIPS(fast)
+# Loading work.Hazard(fast)
+# Loading work.PC(fast)
+# Loading work.IM_2k(fast)
+# Loading work.RegD(fast)
+# Loading work.Ctrl(fast)
+# Loading work.RegFile(fast)
+# Loading work.MUX4(fast)
+# Loading work.MUX3(fast)
+# Loading work.Comp(fast)
+# Loading work.Ext(fast)
+# Loading work.NPC(fast)
+# Loading work.StartCtrl(fast)
+# Loading work.RegE(fast)
+# Loading work.MUX2(fast)
+# Loading work.ALU(fast)
+# Loading work.MD(fast)
+# Loading work.MUX2(fast__1)
+# Loading work.RegM(fast)
+# Loading work.BECtrl(fast)
+# Loading work.DM_4k(fast)
+# Loading work.RegW(fast)
+# Loading work.DMExt(fast)
+add dataflow  \
+sim:/MIPS_TB/MIPS/ALUControlD \
+sim:/MIPS_TB/MIPS/ALUControlE \
+sim:/MIPS_TB/MIPS/ALUOutE \
+sim:/MIPS_TB/MIPS/ALUOutM \
+sim:/MIPS_TB/MIPS/ALUOutW \
+sim:/MIPS_TB/MIPS/ALUSrcD \
+sim:/MIPS_TB/MIPS/ALUSrcE \
+sim:/MIPS_TB/MIPS/BEOutM \
+sim:/MIPS_TB/MIPS/BEOutW \
+sim:/MIPS_TB/MIPS/BranchD \
+sim:/MIPS_TB/MIPS/BusyE \
+sim:/MIPS_TB/MIPS/clk \
+sim:/MIPS_TB/MIPS/CompD \
+sim:/MIPS_TB/MIPS/CompOpD \
+sim:/MIPS_TB/MIPS/ExtOpD \
+sim:/MIPS_TB/MIPS/FlushE \
+sim:/MIPS_TB/MIPS/ForwardAD \
+sim:/MIPS_TB/MIPS/ForwardAE \
+sim:/MIPS_TB/MIPS/ForwardBD \
+sim:/MIPS_TB/MIPS/ForwardBE \
+sim:/MIPS_TB/MIPS/ForwardM \
+sim:/MIPS_TB/MIPS/FunctD \
+sim:/MIPS_TB/MIPS/Hi \
+sim:/MIPS_TB/MIPS/HiLoD \
+sim:/MIPS_TB/MIPS/HiLoE \
+sim:/MIPS_TB/MIPS/HiLoWriteD \
+sim:/MIPS_TB/MIPS/HiLoWriteE \
+sim:/MIPS_TB/MIPS/ImmD \
+sim:/MIPS_TB/MIPS/ImmE \
+sim:/MIPS_TB/MIPS/InstrD \
+sim:/MIPS_TB/MIPS/InstrF \
+sim:/MIPS_TB/MIPS/IsJBrD \
+sim:/MIPS_TB/MIPS/IsJJalD \
+sim:/MIPS_TB/MIPS/IsJJalE \
+sim:/MIPS_TB/MIPS/IsJJalM \
+sim:/MIPS_TB/MIPS/IsJJalW \
+sim:/MIPS_TB/MIPS/IsJrJalrD \
+sim:/MIPS_TB/MIPS/IsJrJalrE \
+sim:/MIPS_TB/MIPS/IsJrJalrM \
+sim:/MIPS_TB/MIPS/IsJrJalrW \
+sim:/MIPS_TB/MIPS/IsLbSbD \
+sim:/MIPS_TB/MIPS/IsLbSbE \
+sim:/MIPS_TB/MIPS/IsLbSbM \
+sim:/MIPS_TB/MIPS/IsLhShD \
+sim:/MIPS_TB/MIPS/IsLhShE \
+sim:/MIPS_TB/MIPS/IsLhShM \
+sim:/MIPS_TB/MIPS/IsMdD \
+sim:/MIPS_TB/MIPS/IsShamtD \
+sim:/MIPS_TB/MIPS/IsShamtE \
+sim:/MIPS_TB/MIPS/IsUnsignedD \
+sim:/MIPS_TB/MIPS/IsUnsignedE \
+sim:/MIPS_TB/MIPS/IsUnsignedM \
+sim:/MIPS_TB/MIPS/IsUnsignedW \
+sim:/MIPS_TB/MIPS/Lo \
+sim:/MIPS_TB/MIPS/MdOpD \
+sim:/MIPS_TB/MIPS/MdOpE \
+sim:/MIPS_TB/MIPS/MemToRegD \
+sim:/MIPS_TB/MIPS/MemToRegE \
+sim:/MIPS_TB/MIPS/MemToRegM \
+sim:/MIPS_TB/MIPS/MemToRegW \
+sim:/MIPS_TB/MIPS/MemWriteD \
+sim:/MIPS_TB/MIPS/MemWriteE \
+sim:/MIPS_TB/MIPS/MemWriteM \
+sim:/MIPS_TB/MIPS/NPCD \
+sim:/MIPS_TB/MIPS/OpD \
+sim:/MIPS_TB/MIPS/PCF \
+sim:/MIPS_TB/MIPS/PCPlus4D \
+sim:/MIPS_TB/MIPS/PCPlus4F \
+sim:/MIPS_TB/MIPS/PCPlus8E \
+sim:/MIPS_TB/MIPS/PCPlus8M \
+sim:/MIPS_TB/MIPS/PCPlus8W \
+sim:/MIPS_TB/MIPS/RdD \
+sim:/MIPS_TB/MIPS/RdE \
+sim:/MIPS_TB/MIPS/ReadDataExtW \
+sim:/MIPS_TB/MIPS/ReadDataM \
+sim:/MIPS_TB/MIPS/ReadDataW \
+sim:/MIPS_TB/MIPS/RegDstD \
+sim:/MIPS_TB/MIPS/RegDstE \
+sim:/MIPS_TB/MIPS/RegWriteD \
+sim:/MIPS_TB/MIPS/RegWriteE \
+sim:/MIPS_TB/MIPS/RegWriteM \
+sim:/MIPS_TB/MIPS/RegWriteW \
+sim:/MIPS_TB/MIPS/Result1W \
+sim:/MIPS_TB/MIPS/ResultW \
+sim:/MIPS_TB/MIPS/RsD \
+sim:/MIPS_TB/MIPS/RsE \
+sim:/MIPS_TB/MIPS/rst \
+sim:/MIPS_TB/MIPS/RtD \
+sim:/MIPS_TB/MIPS/RtE \
+sim:/MIPS_TB/MIPS/RtM \
+sim:/MIPS_TB/MIPS/ShamtD \
+sim:/MIPS_TB/MIPS/ShamtE \
+sim:/MIPS_TB/MIPS/SrcA2D \
+sim:/MIPS_TB/MIPS/SrcA2E \
+sim:/MIPS_TB/MIPS/SrcA3E \
+sim:/MIPS_TB/MIPS/SrcA4E \
+sim:/MIPS_TB/MIPS/SrcAD \
+sim:/MIPS_TB/MIPS/SrcB2D \
+sim:/MIPS_TB/MIPS/SrcB2E \
+sim:/MIPS_TB/MIPS/SrcB3E \
+sim:/MIPS_TB/MIPS/SrcB4E \
+sim:/MIPS_TB/MIPS/SrcBD \
+sim:/MIPS_TB/MIPS/StallD \
+sim:/MIPS_TB/MIPS/StallF \
+sim:/MIPS_TB/MIPS/StartD \
+sim:/MIPS_TB/MIPS/StartE \
+sim:/MIPS_TB/MIPS/WriteData2M \
+sim:/MIPS_TB/MIPS/WriteDataM \
+sim:/MIPS_TB/MIPS/WriteReg2E \
+sim:/MIPS_TB/MIPS/WriteRegE \
+sim:/MIPS_TB/MIPS/WriteRegM \
+sim:/MIPS_TB/MIPS/WriteRegW

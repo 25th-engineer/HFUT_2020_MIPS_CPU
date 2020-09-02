@@ -1,0 +1,549 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hadoop001/Desktop/CPU_WH
+T_opt
+!s110 1599015618
+VP9D1W:d:zm7l`:b>gGkA70
+04 7 4 work MIPS_TB fast 0
+=1-1c1bb59a9282-5f4f0ac2-33c-f44
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+vALU
+Z2 !s110 1599015607
+!i10b 1
+!s100 J_XNhF;YlESVim2LTM@SE2
+!s11b 7GHLZCd[L0:?9D2QWeRAA1
+IS651k^KN^;IGVmL9kN=X60
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1598498138
+8C:/Users/hadoop001/Desktop/CPU_WH/ALU.v
+FC:/Users/hadoop001/Desktop/CPU_WH/ALU.v
+L0 1
+Z4 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z5 !s108 1599015607.000000
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/ALU.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@l@u
+vBECtrl
+R2
+!i10b 1
+!s100 gN>Sj:O65je8CcnA1?8R?2
+!s11b @0`XR@>ec0]kGjdUMTl8K0
+I2OB4T0oF[E]L`hR7k5dJg1
+R3
+R0
+w1598498098
+8C:/Users/hadoop001/Desktop/CPU_WH/BECtrl.v
+FC:/Users/hadoop001/Desktop/CPU_WH/BECtrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/BECtrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/BECtrl.v|
+!i113 0
+R6
+R1
+n@b@e@ctrl
+vComp
+R2
+!i10b 1
+!s100 i4DIN?oO7dAk2PVH1Wi]>0
+!s11b FYcZF@7k5]]i`VCPC<T::2
+IGWER@o`:C4[i:W>[<F@?G0
+R3
+R0
+w1598496968
+8C:/Users/hadoop001/Desktop/CPU_WH/Comp.v
+FC:/Users/hadoop001/Desktop/CPU_WH/Comp.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/Comp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/Comp.v|
+!i113 0
+R6
+R1
+n@comp
+vCtrl
+R2
+!i10b 1
+!s100 C@PAD8F6[lfGWVbESon:f2
+!s11b <jKL^jS>Z`n_ERO[W7TW=0
+IJY[b68Zkc2FKiMz@Hf9a;0
+R3
+R0
+w1598502331
+8C:/Users/hadoop001/Desktop/CPU_WH/Ctrl.v
+FC:/Users/hadoop001/Desktop/CPU_WH/Ctrl.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/Ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/Ctrl.v|
+!i113 0
+R6
+R1
+n@ctrl
+vDM_4k
+R2
+!i10b 1
+!s100 [oo^PZ5^j1ImUeZANC^iU2
+!s11b WY]KR[mV[E7Y?jKVJje=[3
+IcWZ_WmRNR]zN]5h?XBmZY2
+R3
+R0
+w1598498654
+8C:/Users/hadoop001/Desktop/CPU_WH/DM.v
+FC:/Users/hadoop001/Desktop/CPU_WH/DM.v
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/DM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/DM.v|
+!i113 0
+R6
+R1
+n@d@m_4k
+vDMExt
+R2
+!i10b 1
+!s100 7YYKlA@Zz94NWSGKXkc;Q1
+!s11b @i>]@VRl1=>D;1o32VdUa2
+I9K>G4?[BigZ?J:bOhz6WH0
+R3
+R0
+w1598495770
+8C:/Users/hadoop001/Desktop/CPU_WH/DMExt.v
+FC:/Users/hadoop001/Desktop/CPU_WH/DMExt.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/DMExt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/DMExt.v|
+!i113 0
+R6
+R1
+n@d@m@ext
+vExt
+R2
+!i10b 1
+!s100 IQHWGmE]6Yf78oFKNKbz01
+!s11b zWVEbK`Ia8BKQVCCQ]5cM2
+I4nL=1Hik25I<1kjK[e1hH3
+R3
+R0
+w1598502972
+8C:/Users/hadoop001/Desktop/CPU_WH/Ext.v
+FC:/Users/hadoop001/Desktop/CPU_WH/Ext.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/Ext.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/Ext.v|
+!i113 0
+R6
+R1
+n@ext
+vHazard
+R2
+!i10b 1
+!s100 79UURb2b<TaAJO07zC2`m1
+!s11b h=OJQD9cK`e<47GKFI?zb3
+I2=FPQz_G@iR4@mgTa35BR2
+R3
+R0
+w1598575969
+8C:/Users/hadoop001/Desktop/CPU_WH/Hazard.v
+FC:/Users/hadoop001/Desktop/CPU_WH/Hazard.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/Hazard.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/Hazard.v|
+!i113 0
+R6
+R1
+n@hazard
+vIM_2k
+R2
+!i10b 1
+!s100 B9^TULF29A1@ko;<ozFNF3
+!s11b TV18mf;1CO5<kzgT0azHf1
+IRgQ9h9Ek6>FZ9D2>3iK5c3
+R3
+R0
+w1598968023
+8C:/Users/hadoop001/Desktop/CPU_WH/IM.v
+FC:/Users/hadoop001/Desktop/CPU_WH/IM.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/IM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/IM.v|
+!i113 0
+R6
+R1
+n@i@m_2k
+vMD
+R2
+!i10b 1
+!s100 DM?S;JA?mB[A^nB1E;0OZ0
+!s11b kJ^M:^bR2z:L[1lRjIUUe3
+I2Y@FCmJjh<E@c:hb<In[;0
+R3
+R0
+w1598508239
+8C:/Users/hadoop001/Desktop/CPU_WH/MD.v
+FC:/Users/hadoop001/Desktop/CPU_WH/MD.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/MD.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/MD.v|
+!i113 0
+R6
+R1
+n@m@d
+vMIPS
+Z7 !s110 1599015608
+!i10b 1
+!s100 VHQ]OF;T1>7g2?7HGmoII2
+!s11b ZY`5leDP7o6g_nacAQ<;=0
+ICMVY>n4X6[SK4j>dGzN801
+R3
+R0
+w1598450235
+8C:/Users/hadoop001/Desktop/CPU_WH/MIPS.v
+FC:/Users/hadoop001/Desktop/CPU_WH/MIPS.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z8 !s108 1599015608.000000
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/MIPS.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/MIPS.v|
+!i113 0
+R6
+R1
+n@m@i@p@s
+vMIPS_TB
+R7
+!i10b 1
+!s100 ?284olFcNSbe603ZEb1W@2
+!s11b 94kL?8W?4kOgM:WmASbE`3
+IEOkB=f??KZj@jc@je_I1>1
+R3
+R0
+w1599015598
+8C:/Users/hadoop001/Desktop/CPU_WH/MIPS_TB.v
+FC:/Users/hadoop001/Desktop/CPU_WH/MIPS_TB.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/MIPS_TB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/MIPS_TB.v|
+!i113 0
+R6
+R1
+n@m@i@p@s_@t@b
+vMUX2
+R7
+!i10b 1
+!s100 V:kOk47?Sd>NMd5;U8bCC3
+!s11b ZIFnz7ZOOJD;HZheA5IQO2
+IUg=jNcn^jWB_dD]SA6@f@0
+R3
+R0
+Z9 w1598498699
+Z10 8C:/Users/hadoop001/Desktop/CPU_WH/MUX.v
+Z11 FC:/Users/hadoop001/Desktop/CPU_WH/MUX.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/hadoop001/Desktop/CPU_WH/MUX.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/MUX.v|
+!i113 0
+R6
+R1
+n@m@u@x2
+vMUX3
+R7
+!i10b 1
+!s100 [JWRA?GQA9;lzzQN=Eo=b2
+!s11b I[:aUYO;e1n:kNz:Oaf0Z0
+I8[Fjg;9HGJ9VRXji:;lG=0
+R3
+R0
+R9
+R10
+R11
+L0 10
+R4
+r1
+!s85 0
+31
+R8
+R12
+R13
+!i113 0
+R6
+R1
+n@m@u@x3
+vMUX4
+R7
+!i10b 1
+!s100 _Md`CIQIkRPCJUje_JmJ_3
+!s11b :Y[1L5FohZTZ2AVS:Z=2K3
+I[70oh_6o3?hDlJkOIhMWD1
+R3
+R0
+R9
+R10
+R11
+L0 19
+R4
+r1
+!s85 0
+31
+R8
+R12
+R13
+!i113 0
+R6
+R1
+n@m@u@x4
+vNPC
+R7
+!i10b 1
+!s100 1m]THEQiV1Cm]fDNS4a>H3
+!s11b VgzliIf7N4HMnhSiT7lJQ1
+I;mj7CUPNkbCM9aTH;WPd83
+R3
+R0
+w1598452135
+8C:/Users/hadoop001/Desktop/CPU_WH/NPC.v
+FC:/Users/hadoop001/Desktop/CPU_WH/NPC.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/NPC.v|
+!i113 0
+R6
+R1
+n@n@p@c
+vPC
+R7
+!i10b 1
+!s100 z:ZA;I[gMcHDHNghPSk5X0
+!s11b 3GNL?9jmd?9=TX=FN=EaG2
+I6GmgC[VL[CNY4MmU2[97K3
+R3
+R0
+w1598516815
+8C:/Users/hadoop001/Desktop/CPU_WH/PC.v
+FC:/Users/hadoop001/Desktop/CPU_WH/PC.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/PC.v|
+!i113 0
+R6
+R1
+n@p@c
+vRegD
+R7
+!i10b 1
+!s100 X^5QD89bi5C`z8YYiJjaH0
+!s11b nbM0RHM;_WhQh@7YYekc;0
+InDLZcgZl=`bPbezijR1OX0
+R3
+R0
+w1598490008
+8C:/Users/hadoop001/Desktop/CPU_WH/RegD.v
+FC:/Users/hadoop001/Desktop/CPU_WH/RegD.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/RegD.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/RegD.v|
+!i113 0
+R6
+R1
+n@reg@d
+vRegE
+R7
+!i10b 1
+!s100 ?OMEE[6:==]nMX<3`nUb43
+!s11b P]n8FmjlVj0b>K9>:G]W<0
+ImfBFPCT:VYz>`9>WEIUN<3
+R3
+R0
+w1598492841
+8C:/Users/hadoop001/Desktop/CPU_WH/RegE.v
+FC:/Users/hadoop001/Desktop/CPU_WH/RegE.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/RegE.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/RegE.v|
+!i113 0
+R6
+R1
+n@reg@e
+vRegFile
+R7
+!i10b 1
+!s100 hUBzBf>eJ>Eno7R<f2RhE3
+!s11b f<9iTcY7P:4lkBFMRnJJi1
+IEB=9>fzV6C8>6beEF0Mlo3
+R3
+R0
+w1598498488
+8C:/Users/hadoop001/Desktop/CPU_WH/RegFile.v
+FC:/Users/hadoop001/Desktop/CPU_WH/RegFile.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/RegFile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/RegFile.v|
+!i113 0
+R6
+R1
+n@reg@file
+vRegM
+R7
+!i10b 1
+!s100 VoZPD>MfzbWFCh0[jLjN`0
+!s11b `Z?>?HJfz_f4zKaY]5m^F3
+IZ:Mg8I5_UiZO?4D:9OlME0
+R3
+R0
+w1598493775
+8C:/Users/hadoop001/Desktop/CPU_WH/RegM.v
+FC:/Users/hadoop001/Desktop/CPU_WH/RegM.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/RegM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/RegM.v|
+!i113 0
+R6
+R1
+n@reg@m
+vRegW
+R7
+!i10b 1
+!s100 `GP94NWi]k`lRood0P__I1
+!s11b >SzJ13lz?6K^N:UP9I7Zi0
+I=BHTkYACEjNK4g@eFd3X:1
+R3
+R0
+w1598493785
+8C:/Users/hadoop001/Desktop/CPU_WH/RegW.v
+FC:/Users/hadoop001/Desktop/CPU_WH/RegW.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/RegW.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/RegW.v|
+!i113 0
+R6
+R1
+n@reg@w
+vStartCtrl
+R7
+!i10b 1
+!s100 an2e9fDQXnOb4IXfz[BQc0
+!s11b gBPmF^0cm>EQLkg5lj>ZO1
+InBh?6@GBV`QT;Gm5g?ooS1
+R3
+R0
+w1598494461
+8C:/Users/hadoop001/Desktop/CPU_WH/StartCtrl.v
+FC:/Users/hadoop001/Desktop/CPU_WH/StartCtrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hadoop001/Desktop/CPU_WH/StartCtrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/hadoop001/Desktop/CPU_WH/StartCtrl.v|
+!i113 0
+R6
+R1
+n@start@ctrl

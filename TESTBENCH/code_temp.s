@@ -18,13 +18,22 @@
 # Settings -> Memory Configuration -> Compact, Data at address 0
 # Settings -> Delayed branching
 
-.data
-.globl array cnt
-array:
-	.word 0:16	# array of 16 words
-cnt:
-	.word 0		# counter of Branch
-.text
+	.org 0x0
+	.set noat
+	.set noreorder			#不进行指令调度
+	.set nomacro
+	.global __start
+__start:
+	# 注意，MIPS编译时，会将rs和rt的二进制位置互换，写法上是rt,rs，指令码是opcode rs rt(写入rt)
+	# 用ori指令作为开始标志
+	# start code
+	# ori $0, $0, 0x0000
+	# 3400 0000
+	# 此处开始书写代码
+	.org 0x0000
+	ori $0, $0, 0x0000
+	
+	# 真正的代码
 	##################
 	# Test Subset 2  #
 	ori $v0, $0, 0x1234
@@ -55,4 +64,10 @@ cnt:
 	sll $t0, $t0, 3
 	srl $t1, $t0, 16
 	sra $t2, $t0, 29
-	addi $t3, $0, 0x3410	
+	addi $t3, $0, 0x3410
+
+
+	# end code
+	# 3400 0000 3400 0000
+	ori $0, $0, 0x0000
+	ori $0, $0, 0x0000

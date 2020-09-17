@@ -1,4 +1,20 @@
-	lw $1, 8188($0)
+	.org 0x0
+	.set noat
+	.set noreorder			#不进行指令调度
+	.set nomacro
+	.global __start
+__start:
+	# 注意，MIPS编译时，会将rs和rt的二进制位置互换，写法上是rt,rs，指令码是opcode rs rt(写入rt)
+	# 用ori指令作为开始标志
+	# start code
+	# ori $0, $0, 0x0000
+	# 3400 0000
+	# 此处开始书写代码
+	.org 0x0000
+	ori $0, $0, 0x0000
+	
+	# 真正的代码
+		lw $1, 8188($0)
 	li $2, 1370698181
 	addu $2, $1, $2
 	li $3, 624781182
@@ -261,3 +277,9 @@ skip21:	li $23, -1501334171
 	li $23, -1501334171
 	li $8, -376855767
 	mfhi $8
+
+
+	# end code
+	# 3400 0000 3400 0000
+	ori $0, $0, 0x0000
+	ori $0, $0, 0x0000
